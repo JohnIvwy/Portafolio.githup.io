@@ -4,6 +4,7 @@
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --cor-font-palid: #464646;
+   --cor-azulejo: #EAF2FD;
 }
 
 body {
@@ -105,11 +106,30 @@ section.title{
 
 /*Sección About*/
 section.about{
+    padding: 50px 0;
+    background: var(--cor-azulejo);
+}
+.about__title{
+    color: var(--cor-font-palid);
+    margin: .3rem;
 
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.about__paragraph{
+    color: var(--cor-font-palid);
+    width: 67%;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
 
-
-
+section.about img{
+    width: 140px;
+    height: 52px;
+}
 
 
 
